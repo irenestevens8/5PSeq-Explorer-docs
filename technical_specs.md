@@ -55,8 +55,8 @@ The Shinyapp uses 8 files in protein_coding/ subdirectory of each sample:
 |----------|-------------|----------|
 | data_summary.txt | Mapping statistics (NumOfReads, NumOfMapPositions) | 214 bytes |
 | frame_stats.txt | Frame usage percentages (F0, F1, F2) | 310 bytes |
-| meta_counts_START.txt | Raw counts at transcription start sites | 1 KB |
-| meta_counts_TERM.txt | Raw counts at termination sites | 2 KB |
+| meta_counts_START.txt | Raw counts at translation start sites | 1 KB |
+| meta_counts_TERM.txt | Raw counts at translation stop sites | 2 KB |
 | amino_acid_pauses.txt | Reads over amino acids (positions -30 to +8) | 5 KB |
 | codon_pauses.txt | Reads over codons (positions -30 to +8) | 13 KB |
 | frame_counts_START.txt | Frame usage per gene | 85 KB |
