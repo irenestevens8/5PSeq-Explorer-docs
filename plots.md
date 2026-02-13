@@ -5,7 +5,7 @@
 
 ## Introduction to 5P-Seq
 
-5P-seq (5-prime phosphorylated RNA sequencing) profiles mRNA degradation by capturing the 5' phosphorylated ends of mRNAs. During translation, enzymatic cleavage occurs immediately behind the trailing ribosome, making 5P-seq an indirect but powerful method for studying ribosome dynamics. By mapping these cleavage sites, we gain insights into:
+5PSeq (5 prime phosphorylated mRNA sequencing) profiles mRNA degradation by capturing the 5' phosphorylated ends of mRNAs using an oligo. During translation, enzymatic cleavage occurs immediately behind the trailing ribosome, making 5PSeq an indirect but powerful method for studying ribosome dynamics. The method offers information about:
 
 - Ribosome positioning along transcripts
 - Translation initiation and termination dynamics
