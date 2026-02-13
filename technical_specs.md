@@ -201,7 +201,6 @@ For technical issues or questions:
 
 - Contact: irene.stevens@ki.se
 - Lab: Pelechano Lab
-- Data source: http://data.pelechanolab.com/software/5PSeq_explorer/
 
 **Document Version**: 1.0  
 **Last Updated**: February 2026  
