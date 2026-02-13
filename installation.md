@@ -19,11 +19,21 @@ docker pull stevensirene/fivepseq-explorer:v1.3
 docker run -d -p 3838:3838 stevensirene/fivepseq-explorer:v1.3
 ```
 
+For Mac, please use flag ‘--platform=linux/amd64’
+```bash
+docker run --platform=linux/amd64 -d -p 3838:3838 stevensirene/fivepseq-explorer:v1.3 
+```
+
 ### Plug-and-play 5PSeq Explorer-local version (please use with Data freeze- see Data)
 
 ```bash
 docker pull stevensirene/5pseq-explorer-local:v1.0
 docker run -d -p 3838:3838 stevensirene/5pseq-explorer-local:v1.0
+```
+
+For Mac, please use flag ‘--platform=linux/amd64’
+```bash
+docker run --platform=linux/amd64 -d -p 3838:3838 stevensirene/fivepseq-explorer:v1.3 
 ```
 
 3. **Open your browswer and go to:**
