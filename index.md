@@ -5,9 +5,9 @@
 
 ## Overview 
 - [Installation](installation.md)
-- [Optimising User Experience] (user_experience.md)
-- [Technical specifications] (technical_specs.md)
-- [Interpreting the Plots] (plots.md)
+- [Optimising User Experience](user_experience.md)
+- [Technical specifications](technical_specs.md)
+- [Interpreting the Plots](plots.md)
 - [Data](data.md)
 - ![Local image](image-local.png)
 
@@ -15,8 +15,8 @@
 :maxdepth: 2
 :caption: Contents:
 
-installation.md
-user_experience.md
-technical_specs.md
-plots.md
-data.md
+installation
+user_experience
+technical_specs
+plots
+data
