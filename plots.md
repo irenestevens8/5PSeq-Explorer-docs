@@ -1,11 +1,11 @@
-# 5P-Seq Explorer Plot Descriptions
+# 5PSeq Explorer Plot Descriptions
 ## Biological Interpretation Guide
 
 ---
 
-## Introduction to 5P-Seq
+## Introduction to 5PSeq
 
-5PSeq (5 prime phosphorylated mRNA sequencing) profiles mRNA degradation by capturing the 5' phosphorylated ends of mRNAs using an oligo. During translation, enzymatic cleavage occurs immediately behind the trailing ribosome, making 5PSeq an indirect but powerful method for studying ribosome dynamics. The method offers information about:
+5PSeq profiles mRNA degradation intermediates by capturing the 5' phosphorylated ends of mRNAs using an oligo. During translation, enzymatic cleavage occurs immediately behind the trailing ribosome, making 5PSeq a powerful, but indirect method for studying ribosome dynamics. The method offers information about:
 
 - Ribosome positioning along transcripts
 - Translation initiation and termination dynamics
@@ -46,7 +46,7 @@ Stacked bars showing the relative abundance of different RNA types (mRNA, rRNA, 
 
 **Biological Interpretation:**
 
-- **Sample Quality Control:** High-quality 5P-seq libraries should be enriched for mRNA degradation products. The ideal composition shows:
+- **Sample Quality Control:** High-quality 5PSeq libraries should be enriched for mRNA degradation products. The ideal composition shows:
   - High mRNA content (>60-70%)
   - Low rRNA content (<10-20%)
   - Minimal tRNA contamination
@@ -93,7 +93,7 @@ In healthy, actively translating eukaryotic cells, **F1 should dominate (60-80%)
 - **Strong F1 enrichment (normal):** 
   - Indicates proper ribosome positioning
   - Reflects canonical ribosome footprint
-  - Validates that 5P-seq captures true ribosome-protected positions
+  - Validates that 5PSeq captures true ribosome-protected positions
 
 - **Shift toward F0 enrichment:**
   - May indicate altered ribosome conformation
@@ -140,7 +140,7 @@ Same principles as the stacked plot above, but allows for:
 ## 3. FFT Periodicity Analysis
 
 **What it shows:** 
-Fast Fourier Transform (FFT) analysis identifying periodic signals in 5P-seq read distributions around translation start sites. Peaks indicate dominant periodicities.
+Fast Fourier Transform (FFT) analysis identifying periodic signals in 5PSeq read distributions around translation start sites. Peaks indicate dominant periodicities.
 
 **Biological Interpretation:**
 
@@ -155,7 +155,7 @@ A strong peak at period 3 (or near 3) is the hallmark of active translation beca
 - **High amplitude peaks:**
   - Strong, synchronized translation
   - Processive ribosome movement
-  - High-quality 5P-seq data
+  - High-quality 5PSeq data
   - Abundant ribosome density
 
 - **Weak or absent periodicity:**
@@ -190,7 +190,7 @@ Strong F1 enrichment should correlate with strong 3-nt periodicity:
 ### 4.1 Metagene START (Translation Initiation Sites)
 
 **What it shows:** 
-Average 5P-seq signal (CPM) aligned to translation start sites (AUG start codons) across all genes. X-axis shows nucleotide positions relative to the start codon (negative = upstream, positive = downstream).
+Average 5PSeq signal (CPM) aligned to translation start sites (AUG start codons) across all genes. X-axis shows nucleotide positions relative to the start codon (negative = upstream, positive = downstream).
 
 **Biological Interpretation:**
 
@@ -249,7 +249,7 @@ Average 5P-seq signal (CPM) aligned to translation start sites (AUG start codons
 ### 4.2 Metagene STOP (Translation Termination Sites)
 
 **What it shows:** 
-Average 5P-seq signal aligned to translation termination codons (UAA, UAG, UGA). Negative positions = end of coding sequence, positive = 3' UTR.
+Average 5PSeq signal aligned to translation termination codons (UAA, UAG, UGA). Negative positions = end of coding sequence, positive = 3' UTR.
 
 **Biological Interpretation:**
 
@@ -320,7 +320,7 @@ Different stop codons (UAA, UAG, UGA) can show:
 ### 5.1 Amino Acid Protection Heatmap
 
 **What it shows:** 
-Heatmap displaying 5P-seq signal intensity (CPM or row-normalized) for each amino acid across positions relative to its coding codon. Rows = amino acids, columns = positions (-20 to -3), color intensity = ribosome density.
+Heatmap displaying 5PSeq signal intensity (CPM or row-normalized) for each amino acid across positions relative to its coding codon. Rows = amino acids, columns = positions (-20 to -3), color intensity = read counts.
 
 **Biological Interpretation:**
 
@@ -394,7 +394,7 @@ Amino acids where ribosomes frequently pause may result from:
 ### 5.2 Amino Acid Protection Lineplot
 
 **What it shows:** 
-Line plot showing 5P-seq signal profile for a selected amino acid across all positions, comparing multiple samples.
+Line plot showing 5PSeq signal profile for a selected amino acid across all positions, comparing multiple samples.
 
 **Biological Interpretation:**
 
@@ -440,7 +440,7 @@ Comparing peaks across conditions reveals:
 ### 5.3 Amino Acid Protection Scatterplot
 
 **What it shows:** 
-Scatterplot comparing 5P-seq signal for all 20 amino acids at a specific position between two samples. Each point = one amino acid.
+Scatterplot comparing 5PSeq signal for all 20 amino acids at a specific position between two samples. Each point = one amino acid.
 
 **Biological Interpretation:**
 
@@ -491,7 +491,7 @@ Points far from diagonal reveal amino acids with differential pausing:
 ### 6.1 Codon Protection Heatmap
 
 **What it shows:** 
-Heatmap displaying 5P-seq signal intensity for each codon (64 total) across positions relative to the codon. Rows = codons, columns = positions (-20 to -3), color intensity = ribosome density.
+Heatmap displaying 5PSeq signal intensity for each codon (64 total) across positions relative to the codon. Rows = codons, columns = positions (-20 to -3), color intensity = ribosome density.
 
 **Biological Interpretation:**
 
@@ -565,7 +565,7 @@ Heatmap displaying 5P-seq signal intensity for each codon (64 total) across posi
 ### 6.2 Codon Protection Lineplot
 
 **What it shows:** 
-Line plot showing 5P-seq signal profile for a selected codon across positions, comparing multiple samples.
+Line plot showing 5PSeq signal profile for a selected codon across positions, comparing multiple samples.
 
 **Biological Interpretation:**
 
@@ -607,7 +607,7 @@ Similar principles to amino acid lineplot, but with codon-specific insights:
 ### 6.3 Codon Protection Scatterplot
 
 **What it shows:** 
-Scatterplot comparing 5P-seq signal for all 64 codons at a specific position between two samples.
+Scatterplot comparing 5PSeq signal for all 64 codons at a specific position between two samples.
 
 **Biological Interpretation:**
 
@@ -877,7 +877,7 @@ All should be consistent for high-quality data.
 
 ## Glossary
 
-**5P-seq:** 5-prime phosphorylated mRNA sequencing, captures degradation intermediates
+**5PSeq:** 5-prime phosphorylated mRNA sequencing, captures degradation intermediates
 
 **CPM:** Counts Per Million mapped positions, normalization method
 
