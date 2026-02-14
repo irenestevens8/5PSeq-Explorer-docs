@@ -15,7 +15,7 @@
 ### Web version (with data hosted on our laboratory server)
 
 ```bash
-docker pull stevensirene/fivepseq-explorer:v1.3
+docker pull stevensirene/fivepseq-explorer:v1.4
 docker run -d -p 3838:3838 stevensirene/fivepseq-explorer:v1.4
 ```
 
